@@ -1,0 +1,17 @@
+body {
+  --dusk: #c6cec3;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: var(--dusk);
+  transform-origin: 0%;
+}

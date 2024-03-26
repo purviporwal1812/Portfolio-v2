@@ -1,0 +1,14 @@
+.navbar {
+  margin: 5% 0% 0 25%;
+
+  width: 60%;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.name a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 180%;
+  font-weight: 700;
+}

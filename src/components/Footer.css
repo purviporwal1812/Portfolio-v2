@@ -1,0 +1,13 @@
+.foot {
+  animation: move 7s infinite;
+  color: black;
+}
+.foot {
+  background-color: #f8f9fa; /* Background color */
+  color: #212529; /* Text color */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center-align text */
+  width: 100%; /* Full width */
+
+  bottom: 0; /* Stick to the bottom */
+}

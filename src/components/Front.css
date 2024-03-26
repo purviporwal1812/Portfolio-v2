@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+}
+.hey {
+  font-size: 2.5rem;
+  font-weight: 900;
+  animation: moveHey 10s infinite;
+}
+.col-sm-8 {
+  margin: 15% 0 0 0;
+}
+.col-sm-4 {
+  margin: 5% 0 0 0;
+}
+.words {
+  font-size: 1rem;
+}
+
+.myImg {
+  max-width: 120%;
+  height: auto;
+  animation: move 10s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveHey {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveWords {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

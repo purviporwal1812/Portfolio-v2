@@ -1,0 +1,27 @@
+.container {
+  margin: 4% 0 0 10%; /* Adjust margin as needed */
+}
+
+.p-3 {
+  background-color: #f8f9fa;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5%; /* Adjust margin as needed */
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
